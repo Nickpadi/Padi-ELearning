@@ -1,0 +1,73 @@
+/*------------------------------------*\
+    http://smacss.com/book/type-module
+\*------------------------------------*/
+/* ==========================================================================
+   Styling for the intro section
+   ========================================================================== */
+
+.padi-jumbotron {
+	background-position: left top;
+	background: url('../images/think-likea-diver-intro-bg.jpg') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: auto;
+	padding: 15px;
+}
+
+.intro-text {
+	color: white;
+	margin: 15px;
+	ul {
+		list-style-type: none;
+	}
+	li{
+		color: inherit;
+	}
+	p, li {
+		font-size: 21px;
+	}
+}
+
+.intro-text li:before {
+    content: "";
+    border-color: transparent #fff;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+.vertical {
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+}
+.scenario-container {
+	position: relative; //for vertically align the scenario
+}
+
+h2.scenario {
+	width: auto;
+	transform-origin: left bottom;
+	display: inline-block;
+	text-transform:none;
+	font-style: italic;
+	position: absolute;
+	top: 60px;
+}
+
+.intro-title {
+	border: 1px yellow solid;
+}
