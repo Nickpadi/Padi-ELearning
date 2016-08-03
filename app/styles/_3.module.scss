@@ -30,6 +30,15 @@
 	}
 }
 
+.intro-title-text {
+	color: #fff;
+	font-weight: bold;
+	font-size: 63px;
+	text-transform: uppercase;
+	.title-light {
+		font-weight: normal;
+	}
+}
 .intro-text li:before {
     content: "";
     border-color: transparent #fff;
@@ -66,8 +75,4 @@ h2.scenario {
 	font-style: italic;
 	position: absolute;
 	top: 60px;
-}
-
-.intro-title {
-	border: 1px yellow solid;
 }
